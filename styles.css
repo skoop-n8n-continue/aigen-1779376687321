@@ -26,9 +26,9 @@ body {
   place-items: center;
   padding: clamp(24px, 5vw, 72px);
   background:
-    radial-gradient(circle at 20% 20%, rgba(0, 140, 255, 0.45), transparent 34%),
+    radial-gradient(circle at 20% 20%, rgba(255, 80, 80, 0.45), transparent 34%),
     radial-gradient(circle at 80% 70%, rgba(255, 255, 255, 0.12), transparent 30%),
-    linear-gradient(135deg, #0a1628 0%, #0066cc 100%);
+    linear-gradient(135deg, #1a0a0a 0%, #8b0000 100%);
 }
 
 .card {
@@ -37,14 +37,14 @@ body {
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: clamp(28px, 4vw, 56px);
-  background: rgba(10, 22, 40, 0.74);
+  background: rgba(26, 10, 10, 0.74);
   box-shadow: 0 32px 90px rgba(0, 0, 0, 0.35);
   backdrop-filter: blur(18px);
 }
 
 .eyebrow {
   margin: 0 0 18px;
-  color: #66b3ff;
+  color: #ff8080;
   font-size: clamp(1rem, 2vw, 1.45rem);
   font-weight: 800;
   letter-spacing: 0.24em;
